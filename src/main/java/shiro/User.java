@@ -1,6 +1,7 @@
 package shiro;
 
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -34,5 +35,6 @@ public class User {
         this.id = id;
     }
     Map<String,Integer> hashMap = new HashMap<>();
+    ArrayList list  = new ArrayList();
 
 }
