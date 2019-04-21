@@ -34,5 +34,6 @@ public class User {
         this.id = id;
     }
     Map<String,Integer> hashMap = new HashMap<>();
+    AbstractMethodError abstractMethodError = new AbstractMethodError();
 
 }
