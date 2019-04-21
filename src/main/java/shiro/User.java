@@ -1,8 +1,7 @@
 package shiro;
 
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 public class User {
 
@@ -34,6 +33,7 @@ public class User {
         this.id = id;
     }
     Map<String,Integer> hashMap = new HashMap<>();
-    AbstractMethodError abstractMethodError = new AbstractMethodError();
+    ArrayList list  = new ArrayList();
+    List list1 = new LinkedList();
 
 }
